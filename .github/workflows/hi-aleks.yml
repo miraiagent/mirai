@@ -1,0 +1,12 @@
+# hi aleks
+
+this workflow runs on every push to main.
+
+it does nothing.
+it just says hi.
+thats the point.
+
+javaScript:
+```jys
+console.log("hi aleks");
+```
