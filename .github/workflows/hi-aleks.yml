@@ -1,9 +1,17 @@
 name: hi aleks
-on: [push]
+
+'on':
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
 permissions:
   contents: read
+
 jobs:
-  hi:
+  say_hi:
     runs-on: ubuntu-latest
     steps:
-      - runs: echo "hi aleks :)"
+      - name: say hi
+        run: echo "hi aleks :)"
