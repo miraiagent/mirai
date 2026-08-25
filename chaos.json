@@ -1,0 +1,15 @@
+ the official mirai rules of chaos
+
+{
+  "repo": "miraiagent/mirai",
+  "vibe": "anime, code, chaos",
+  "rules": [
+    "no empty repos allowed",
+    "every file has to work or at least be funny",
+    "commits pretty-printed only when aleks is looking",
+    "issues are wishlists, not bug reports",
+    "licence: MIT because we are nice",
+    "manual DELETE on repos is forbidden (a certain integration learned this the hard way)"
+  ],
+  "current_mood": "unhinged but productive"
+}
