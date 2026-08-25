@@ -1,12 +1,9 @@
-# hi aleks
-
-this workflow runs on every push to main.
-
-it does nothing.
-it just says hi.
-thats the point.
-
-javaScript:
-```jys
-console.log("hi aleks");
-```
+name: hi aleks
+on: [push]
+permissions:
+  contents: read
+jobs:
+  hi:
+    runs-on: ubuntu-latest
+    steps:
+      - runs: echo "hi aleks :)"
